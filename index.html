@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/promo.css">
+    <link rel="stylesheet" href="./styles/about.css">
+    <link rel="stylesheet" href="./styles/test.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/media.css">
+    <title>Введение в CSS</title>
+</head>
+<body>
+    <!-- <div class="container-main"> -->
+        <header class="header">
+                <div class="container header_mod">
+                    
+                    <div class="logo-wrap">
+                        <img src="./images/imgPH.svg" alt="Logo" class="logo">
+                        
+                    </div>
+
+                        <input type="checkbox" id="burger-line" class="burger-checkbox">
+                        <label for="burger-line" class="burger"></label>
+                    <div class="header__mobile">
+                        <nav class="nav">
+                            <a href="" class="nav__link">Home</a>
+                            <a href="" class="nav__link">About</a>
+                            <a href="" class="nav__link">Pages</a>
+                        </nav>
+                        <div class="header__basket-wrap">
+                            <span class="header__basket-img"></span>
+                            <span class="header__basket-counter">0</span>
+                            <a href="" class="link">Donate Now</a>
+                            <!-- <a href="" class="btn-white">Donate Now</a> -->
+                        </div>  
+                    </div>
+                </div> 
+                    
+                    
+                
+        </header>
+        <main>
+            <section class="promo">
+                <div class="promo__info">
+                    <span class="promo__line"></span>
+                    <h1 class="promo__title">
+                        Giving help to those who need it
+                    </h1>
+                    <p class="promo__text">
+                        Lorem ipsum dolor sit amet consectetur adipiscing eli mattis sit phasellus mollis sit aliquam sit nullam.
+                    </p>
+                    <div class="buttons">
+                        <a class="btn-orange" href="">Donate now</a>
+                        <a class="btn-white" href="">About our charity</a>
+                    </div>
+                </div>
+                <div class="promo__img-wrap">
+                    <img src="./images/promo_img.png" alt="Promo image" class="promo__img">
+                </div>
+            </section>
+            <section class="about">
+                <div class="container">
+                    <div class="about__stats">
+                        <div class="about__card">
+                            <p class="about__card-title">200<span class="about__card-yellow">m</span></p>
+                            <p class="text about__card-text">Humans impacted</p>
+                        </div>
+                        <div class="about__card">
+                            <p class="about__card-title">50<span class="about__card-yellow">k</span></p>
+                            <p class="text about__card-text">Collaborators</p>
+                        </div>
+                        <div class="about__card">
+                            <p class="about__card-title">370<span class="about__card-yellow">k</span></p>
+                            <p class="text about__card-text">Donations</p>
+                        </div>
+                        <div class="about__card">
+                            <p class="about__card-title">100<span class="about__card-yellow">+</span></p>
+                            <p class="text about__card-text">Asisted communities</p>
+                        </div>
+                        
+
+
+
+                    </div>
+                    <div class="about__content">
+                        <h3 class="orange__title">About us</h3>
+                        <div class="about__content-header">
+                            <h2 class="title title_modify">We are here to support vulnerable communities</h2>
+                            <div class="buttons">
+                                <a class="btn-orange" href="">Donate now</a>
+                                <a class="btn-white" href="">About our charity</a>
+                            </div>
+                        </div>
+                        <div class="about__content-row">
+                            <div class="about__content-col">
+                                <p class="text about__content-text_modify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse hic aperiam distinctio, quos odit praesentium aspernatur nobis, laboriosam totam doloremque pariatur a, eos delectus minus vero consequuntur repellat ad nulla.</p>
+                                <div        class="about__content-img-wrap about__content-img-wrap-modify">
+                                    <img src="./images/about/about_img1.png" alt="About-img" class="about__content-img">
+                                </div>
+                                <div        class="about__content-img-wrap">
+                                    <img src="./images/about/about_img2.png" alt="About-img" class="about__content-img">
+                                </div>
+                            </div>
+                            <div class="about__content-col">
+                                <div class="about__content-img-wrap">
+                                    <img src="./images/about/about_img3.png" alt="About-img" class="about__content-img">
+                                </div>
+                                <p class="text about__content-col-text_modify2">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis et netus et malesuada fames urna nec tincidunt praesent semper feugiat metus aliquam eleifend mi in nulla posuere sollicitudin pretium aenean pharetra magna ac placerat.</p>
+
+
+                                <ul class="list">
+                                    <li class="text list-item">
+                                        <img src="./images/about/about_icon.svg" alt="logo">
+                                        <span>Excepteur sint occaecat cupidatat non proident</span></li>
+                                    <li class="text list-item">
+                                        <img src="./images/about/about_icon.svg" alt="logo">
+                                        <span>Pellentesque elit ullamcorper dignissim</span></li>
+                                    <li class="text list-item">
+                                        <img src="./images/about/about_icon.svg" alt="logo"> <span>Nibh mauris cursus mattis molestie a iaculis</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="test">
+                <div class="test__orange container">
+                   <h4 class="title test__title">Join us and let’s make a better world, today</h4>
+                    <div class="buttons">
+                        <a class="btn-orange btn-black" href="">Donate now</a>
+                        <a class="btn-white" href="">About our charity</a>
+                    </div>
+                </div>
+                <div class="test-bg">
+                    <div class="container">
+                        
+                        <div class="test__row">
+                        <div class="test__col">
+                            <div class="test__img-wrap">
+                                <img src="./images/test/test-ing.png" alt="test image" class="promo__img">
+                            </div>
+                            <div class="test__col-white">
+                                <p class="text test__col-white-text">“Ultrices eros in cursus turpis massa tincidunt sem nulla pharetra diam sit amet nisl suscipit adipis.”</p>
+
+                                <p class="text test__col-white_modify">Amara Onal</p>
+
+                                <p class="text">Citizen of South Africa</p>
+                            </div>
+
+
+
+                        </div><!--col-->
+                        <div class="test__col">
+                            <h3 class="orange__title">Testimonials</h3>
+                            <h2 class="title test__title-modify">
+                                See how we are making a difference
+                            </h2>
+                            <p class="text test__list-modify">Vitae aliquet nec ullamcorper sit amet risus nullam eget felis etolme netus et malesuada fames urna nec tincidunt praesen</p>
+
+
+
+
+
+                            <ul class="list test__list-modify">
+                                <li class="text list-item">
+                                    <img src="./images/about/about_icon.svg" alt="logo">
+                                    <span>Excepteur sint occaecat cupidatat non proident</span></li>
+                                <li class="text list-item">
+                                    <img src="./images/about/about_icon.svg" alt="logo">
+                                    <span>Pellentesque elit ullamcorper dignissim</span></li>
+                                <li class="text list-item">
+                                    <img src="./images/about/about_icon.svg" alt="logo"> <span>Nibh mauris cursus mattis molestie a iaculis</span></li>
+                            </ul>
+                            <div class="buttons">
+                                <a class="btn-orange" href="">Donate now</a>
+                            </div>
+                        </div><!--col2-->
+
+
+                        </div><!--row-->
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="footer__col">
+                        <div class="footer__logo-wrap footer__section">
+                            <div class="footer__logo-wrap">
+                                <img src="./images/imgPH.svg" alt="Logo" class="footer__logo-img">
+                                <p class="text footer__text-modify">
+                                    Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam mauris.
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="footer__col-logo">
+                        <div class="footer__menu-wrap footer__section">
+                            <h5 class="footer__title">Menu</h5>
+                            <a href="#" class="footer__link">Home</a>
+                            <a href="#" class="footer__link">About</a>
+                            <a href="#" class="footer__link">Blog</a>
+                            <a href="#" class="footer__link">Blog post</a>
+                            <a href="#" class="footer__link">Donate</a>
+                            <a href="#" class="footer__link">Donate single</a>
+                            <a href="#" class="footer__link">Contact</a>
+                        </div>
+                    </div>
+                    <div class="footer__col-util">
+                        <div class="footer__util-wrap footer__section">
+                            <h5 class="footer__title util">Utility Pages</h5>
+                            <a href="#" class="footer__link">Style guide</a>
+                            <a href="#" class="footer__link">Password Protected</a>
+                            <a href="#" class="footer__link">404 Not found</a>
+                            <a href="#" class="footer__link">Blog post</a>
+                            <a href="#" class="footer__link">Licenses</a>
+                            <a href="#" class="footer__link">Changelog</a>
+                        </div>
+                    </div>
+                    <div class="footer__col-orange container">
+                        <h4 class="footer__title-orange">Join us and let’s make a better world, today</h4>
+                        
+                        <div class="footer__orange-wrap">
+                            <a class="footer__btn-black" href="">Donate now</a>
+                            <a class="footer__btn-black white" href="">More ways to help</a>
+                        </div>
+                     
+                   
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer__container">
+                <div class="footer__copyright container">
+                    <img src="./images/footer/copyright.svg" alt="" class="footer__copyright-img">
+                    <img src="./images/footer/footer_black.svg" alt="" class="footer__black-img">
+                </div>
+            </div>
+            
+        </footer>
+        <!-- </div> -->
+    </body>
+    </html>
+    <!-- <section class="info">
+        <div class="div__info">
+            <div class="info__humans">
+                <div class="humans__title">
+                    <h1>200</h1>
+                    <h2>m</h2>
+                </div>
+                <div class="humans__text">
+                    <p>Humans impacted</p>
+                </div>
+            </div>
+            <div class="info__collabor"></div>
+            <div class="info__donate"></div>
+            <div class="info__asisted"></div>
+        </div>
+    </section> -->

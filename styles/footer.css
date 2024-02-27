@@ -1,0 +1,101 @@
+.footer {
+    background: rgb(254, 249, 242);
+    padding-top: 140px;
+}
+.footer__row {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 110px;
+    border-bottom: 1px solid;
+    
+}
+.footer__col {
+   flex-basis: 30%;
+}
+
+.footer__menu-wrap {
+    margin-right: 25px;
+}
+.footer__text-modify {
+    margin-top: 27px;
+    color: rgb(63, 63, 63);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.footer__col-logo {
+    margin-right: 25px;
+}
+.footer__title {
+    color: rgb(9, 9, 9);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 45px;
+}
+.util {
+    margin-bottom: 23px;
+    height: 44px;
+    margin-right: 90px;
+}
+.footer__link {
+    color: rgb(63, 63, 63);
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 22px;
+}
+.footer__col-util {
+    margin-right: 59px;
+}
+.footer__col-orange {
+    background: url(../images/footer/footer__vec.png) no-repeat -115px -215px, 
+    url(../images/footer/footer__vec.png) no-repeat 175px 144px;
+    background-color: rgb(255, 156, 8);
+    border-radius: 14px;
+    flex-basis: 32%;
+    position: relative;
+}
+.footer__section{
+    display: flex;
+    flex-direction: column; 
+}
+.footer__title-orange{
+    color: rgb(9, 9, 9);
+    font-size: 24px;
+    font-weight: 700;
+    padding: 64px 58px 21px 48px;
+}
+.footer__orange-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__btn-black {
+    background: rgb(9, 9, 9);
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 23px 94px 28px 94px;
+    margin-bottom: 16px;
+    font-family: 'DM Sans';
+}
+.white {
+    background: rgb(255, 255, 255);
+    color: rgb(9, 9, 9); 
+    padding: 24px 56px 29px 75px ;
+    margin: 0;
+}
+
+.footer__copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 39px;
+    padding-bottom: 32px;
+    flex-wrap: wrap;
+}
+
+.footer__container {
+    max-width: 1220px;
+    margin: 0 auto;
+}

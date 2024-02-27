@@ -1,0 +1,67 @@
+.about {
+    background: rgb(254, 249, 242);
+    padding: 134px 0 200px 0;
+    margin: -52px 0 200px 0;
+}
+.about__stats {
+    padding-bottom: 75px;
+    border-bottom: 1px solid rgb(218, 209 ,282);
+    margin-bottom: 198px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+}   
+
+.about__card-title {
+    color: rgb(9, 9, 9);
+    font-size: 60px;
+    font-weight: 700; 
+    line-height: 80px;
+    font-family: 'Roboto', Arial, "Helvica Neue", Helvetica, sans-serif;
+}
+.about__card-yellow {
+    color: rgb(255, 156, 8);
+}
+.about__card-text {
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 400;
+}
+.about__content-img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.about__content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.title_modify {
+    max-width: 517px;
+}
+.about__content-row {
+    display: flex;
+    justify-content: space-between;
+}
+.about__content-col {
+    flex-basis: 49%;
+}
+.about__content-col:first-child {
+    padding-top: 7px;
+}
+.about__content-text_modify {
+    margin-bottom: 52px;
+}
+
+.about__content-img-wrap {
+    overflow: hidden;
+    border-radius: 10px;
+}
+.about__content-img-wrap-modify {
+    margin-bottom: 32px;
+}
+.about__content-col-text_modify2 {
+    margin-top: 50px;
+}
+
